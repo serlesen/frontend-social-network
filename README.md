@@ -1,3 +1,26 @@
+# Frontend Social Network
+
+This is a Frontend application of a social network project used in my Youtube
+videos.
+
+https://www.youtube.com/playlist?list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq
+
+## Chapter 1
+
+In this first video, I've created the React application with yarn and described
+the folder structure and how the React components work.
+
+Then I've run the React application and saw the different parts of the rendered
+webpage. I've also explain the hot reload used by yarn to refresh the webpage
+upon changes done in the code.
+
+And finally, I've explained how React mixes the HTML and the Javascript thanks
+to JSX.
+
+https://www.youtube.com/playlist?list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
