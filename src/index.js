@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Login from "./components/Login/Login";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <div className="clean-layout-body">
+          <Login/>
+      </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

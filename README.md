@@ -17,7 +17,29 @@ upon changes done in the code.
 And finally, I've explained how React mixes the HTML and the Javascript thanks
 to JSX.
 
-https://www.youtube.com/playlist?list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq
+https://www.youtube.com/watch?v=hbhOKw8cZrQ&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=3&t=0s
+
+
+## Chapter 2
+
+In the second video of the playlist, I've created the folders to have a structured
+project: all the components grouped in a separated folder. From there, I've created
+a React component to handle the login form. It will be composed by a JS file and a
+CSS file.
+
+The index.js contains a main div which will be the parent of all the application. This
+main div contains the main CSS definitions which all the children will inherit.
+
+The login form is composed by two tabs: one to handle the sign in of existing users;
+and one to handle the sign up for new users. Both tabs are located in the same div.
+Click on each other will show and hide the corresponding form with the corresponding
+input fields that must be send to the backend.
+
+At the end, the forms data will be sent to the backend using axios. Axios will allow
+us to handle the correct response to redirect to another page of the site, and handle
+the errors to print a message error to the user.
+
+https://www.youtube.com/watch?v=zAL_4j-Z-B8&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=4&t=0s
 
 
 
