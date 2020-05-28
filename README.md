@@ -42,6 +42,19 @@ the errors to print a message error to the user.
 https://www.youtube.com/watch?v=zAL_4j-Z-B8&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=4&t=0s
 
 
+## Chapter 3
+
+In this third video, I've added a React Router to manage the different pages of the website
+with different URLs. I needed to create a custom route to manage proctected URLs. This protected
+route will check the presence of an auth token in the local storage to allow render
+requested page.
+
+Having separated the protected pages of the public pages, I created two different layouts:
+one for the public pages without header, and one for the protected pages with a header where
+are located different tabs to switch between the available pages.
+
+https://www.youtube.com/watch?v=1IOX_B7sWXY&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=5&t=0s
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

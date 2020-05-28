@@ -1,9 +1,15 @@
 import React from 'react';
 import './Login.css'
+import PropTypes from "prop-types";
 import classNames from 'classnames';
 import {request} from "../../helpers";
+import {withRouter} from "react-router-dom";
 
 class Login extends React.Component {
+
+    static propTypes = {
+        history : PropTypes.object.isRequired
+    }
 
     constructor(props) {
         super(props);
@@ -34,7 +40,8 @@ class Login extends React.Component {
                     '/v1/signIn',
                     { login : this.state.login, password : this.state.password },
                     (response) => {
-                        // redirect to the homepage
+                        this.props.history.push("/messages");
+                        console.log("hi");
                         this.setState({msgError: ''});
                     },
                     (error) => {
@@ -55,7 +62,8 @@ class Login extends React.Component {
                         login : this.state.login,
                         password : this.state.password },
                     (response) => {
-                        // redirect to the homepage
+                        this.props.history.push("/messages");
+                        console.log("hi");
                         this.setState({msgError: ''});
                     },
                     (error) => {
@@ -119,4 +127,4 @@ class Login extends React.Component {
 
 }
 
-export default Login;
+export default withRouter(Login);
