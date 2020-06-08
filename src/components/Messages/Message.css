@@ -1,0 +1,12 @@
+.box .message-content {
+    text-align: left;
+    margin: 20px;
+}
+
+.box .message-post {
+    width: 570px;
+    height: 130px;
+    margin: 10px;
+    resize: none;
+    font-size: 16px;
+}

@@ -56,6 +56,21 @@ are located different tabs to switch between the available pages.
 https://www.youtube.com/watch?v=1IOX_B7sWXY&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=5&t=0s
 
 
+## Chapter 4
+
+In this fourth video, I've created the messages page where all the messages of the community are
+displayed. The list is displayed in a page of 10 elements, and a button at the end will allow
+to load more elements. This button will append the incoming elements ot the existing list. This
+way, React won't reload the page, only the DOM will be modified and no refresh/reload will be
+perceived by the user.
+
+The message page will also have a input form to post a new message. As with load more button,
+posting a new message will append the new message at the top of the list without any refresh/reload
+of the page.
+
+https://www.youtube.com/watch?v=5gdYY8gjVTg&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=6&t=0s
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
