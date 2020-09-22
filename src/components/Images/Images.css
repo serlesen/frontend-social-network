@@ -1,0 +1,22 @@
+.box .image-post {
+    width: 570px;
+    height: 50px;
+    margin: 10px;
+    resize: none;
+    font-size: 16px;
+}
+
+.box .image-input {
+    width: 100%;
+    position: relative;
+    left: 20%;
+}
+
+.box .image-content {
+    width: 100%;
+}
+
+.box .image-title {
+    text-align: center;
+    margin: 20px;
+}

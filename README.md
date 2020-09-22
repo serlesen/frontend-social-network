@@ -17,8 +17,6 @@ upon changes done in the code.
 And finally, I've explained how React mixes the HTML and the Javascript thanks
 to JSX.
 
-https://www.youtube.com/watch?v=hbhOKw8cZrQ&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=3&t=0s
-
 
 ## Chapter 2
 
@@ -39,8 +37,6 @@ At the end, the forms data will be sent to the backend using axios. Axios will a
 us to handle the correct response to redirect to another page of the site, and handle
 the errors to print a message error to the user.
 
-https://www.youtube.com/watch?v=zAL_4j-Z-B8&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=4&t=0s
-
 
 ## Chapter 3
 
@@ -52,8 +48,6 @@ requested page.
 Having separated the protected pages of the public pages, I created two different layouts:
 one for the public pages without header, and one for the protected pages with a header where
 are located different tabs to switch between the available pages.
-
-https://www.youtube.com/watch?v=1IOX_B7sWXY&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=5&t=0s
 
 
 ## Chapter 4
@@ -68,7 +62,17 @@ The message page will also have a input form to post a new message. As with load
 posting a new message will append the new message at the top of the list without any refresh/reload
 of the page.
 
-https://www.youtube.com/watch?v=5gdYY8gjVTg&list=PLab_if3UBk9-O8mjF8JyuK6_4j8G2UxUq&index=6&t=0s
+
+## Chapter 5
+
+In this video, I've created an upload form with a preview mode. When the user wants to upload
+an image, the image will be first displayed in a preview mode, where the user can add a title
+and accept the form uploading it to the backend.
+
+The preview mode is done with the FileReader of React, which allows to read the uploaded content
+without send it to the backend. This way, I display the image in an Image tag, resized, to
+let the user see the final version of the image.
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
